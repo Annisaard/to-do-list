@@ -10,21 +10,23 @@ body {
   display: flex;
   font-family: "poppins", sans-serif;
 }
-body::after {
+/* body::after {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #2856f9;
   clip-path: circle(10% at right 40%);
-  filter: blur(100px);
-}
+  backdrop-filter: blur(188px);
+  background-color: #f928b2;
+  
+} */
 
 h1 {
   font-size: 80px;
   color: #faebeb;
+  margin-bottom: 70px;
 }
 .taskbg {
   width: 747px;
@@ -36,9 +38,7 @@ h1 {
   border-radius: 10px;
   -webkit-backdrop-filter: blur(100px);
   backdrop-filter: blur(100px);
-  background-color: rgba(255, 255, 255, 0.01);
-  border-top: 1% solid rgb(217, 217, 217);
-  box-shadow: 5px 5px 5px rgba(196, 195, 195, 0.039);
+  background-color: rgba(255, 255, 255, 0.05);
   text-align: left;
   position: relative;
   color: #4b4d54;
