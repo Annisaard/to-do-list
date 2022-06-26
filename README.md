@@ -1,5 +1,8 @@
 
-## Project individu to-do-list app
+## Individual project to-do-list app 📃
 
--menggunakan framework React js
-- implementasi operasi CRUD
+✅ Created as a certification project for Digital Talent Workshops.
+✅ using framework react js ⚛️
+✅ implement CRUD operations
+
+
